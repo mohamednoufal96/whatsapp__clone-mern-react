@@ -9,6 +9,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 3px 10px;
+    border-right: 1px solid lightgrey;
 }
 
 .sidebar__headerRight {
@@ -53,6 +54,8 @@
 
 .sidebar__chats {
     display: flex;
+    height: 100%;
     flex-direction: column;
-    padding: 0 10px;
+    background-color: white;
+    overflow-y: scroll;
 }
